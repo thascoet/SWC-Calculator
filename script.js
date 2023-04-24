@@ -54,15 +54,15 @@ function addMainPageItem(htmlElement, item) {
     f.innerHTML = "Calcule";
     f.addEventListener("click", () => {
         let quantity = document.getElementById(`input_${item.id}`).value;
-        cleanHtmlElement(htmlElement);
+        cleanHtmlElement(root);
         let e = document.createElement("button");
         e.className = "go-back-button";
         e.innerHTML = "Retour à la liste";
         e.addEventListener('click', () => {
             displayMainPage();
         });
-        htmlElement.appendChild(e);
-        addCalculePageItem(htmlElement, item.id, quantity);
+        root.appendChild(e);
+        addCalculePageItem(root, item.id, quantity);
     });
     e.appendChild(f);
     htmlElement.appendChild(e);
