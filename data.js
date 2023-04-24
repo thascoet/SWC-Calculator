@@ -1,376 +1,526 @@
 const dataText = [
     {
         id: 0,
+        rarity: 0,
+        category: "raw",
         name: "Minerai de fer",
         crafts: []
     },
     {
         id: 1,
+        rarity: 3,
+        category: "raw",
         name: "Minerai de fer plus dur",
         crafts: []
     },
     {
         id: 2,
+        rarity: 0,
+        category: "raw",
         name: "Minerai d'argent",
         crafts: []
     },
     {
         id: 3,
+        rarity: 1,
+        category: "raw",
         name: "Minerai de mythril",
         crafts: []
     },
     {
         id: 4,
+        rarity: 1,
+        category: "raw",
         name: "Minerai d'or",
         crafts: []
     },
     {
         id: 5,
-        name: "Minerai de cobalt'",
+        rarity: 1,
+        category: "raw",
+        name: "Minerai de cobalt",
         crafts: []
     },
     {
         id: 6,
+        rarity: 2,
+        category: "raw",
         name: "Minerai de fluorite",
         crafts: []
     },
     {
         id: 7,
+        rarity: 2,
+        category: "raw",
         name: "Minerai d'adamantium",
         crafts: []
     },
     {
         id: 8,
+        rarity: 2,
+        category: "raw",
         name: "Minerai de platine",
         crafts: []
     },
     {
         id: 9,
+        rarity: 3,
+        category: "raw",
         name: "Minerai de platine incandescent",
         crafts: []
     },
     {
         id: 10,
+        rarity: 3,
+        category: "raw",
         name: "Minerai d'obsidienne",
         crafts: []
     },
     {
         id: 11,
+        rarity: 3,
+        category: "raw",
         name: "Minerai de tritium",
         crafts: []
     },
     {
         id: 12,
+        rarity: 0,
+        category: "raw",
         name: "Grenat brut",
         crafts: []
     },
     {
         id: 13,
+        rarity: 0,
+        category: "raw",
         name: "Opale brut",
         crafts: []
     },
     {
         id: 14,
+        rarity: 0,
+        category: "raw",
         name: "Zicron brut",
         crafts: []
     },
     {
         id: 15,
+        rarity: 1,
+        category: "raw",
         name: "Rubis brut",
         crafts: []
     },
     {
         id: 16,
+        rarity: 1,
+        category: "raw",
         name: "Aigue-marine brute",
         crafts: []
     },
     {
         id: 17,
+        rarity: 1,
+        category: "raw",
         name: "Péridot brut",
         crafts: []
     },
     {
         id: 18,
+        rarity: 2,
+        category: "raw",
         name: "Diamant rouge brute",
         crafts: []
     },
     {
         id: 19,
+        rarity: 2,
+        category: "raw",
         name: "Saphir brut",
         crafts: []
     },
     {
         id: 20,
+        rarity: 2,
+        category: "raw",
         name: "Émeraude brute",
         crafts: []
     },
     {
         id: 21,
+        rarity: 3,
+        category: "raw",
         name: "Topaze brute",
         crafts: []
     },
     {
         id: 22,
+        rarity: 0,
+        category: "raw",
         name: "Branche d'arbre",
         crafts: []
     },
     {
         id: 23,
+        rarity: 1,
+        category: "raw",
         name: "Tronc d'arbre robuste",
         crafts: []
     },
     {
         id: 24,
+        rarity: 0,
+        category: "raw",
         name: "Tige de lavande",
         crafts: []
     },
     {
         id: 25,
+        rarity: 0,
+        category: "raw",
         name: "Feuille de basilic",
         crafts: []
     },
     {
         id: 26,
+        rarity: 2,
+        category: "raw",
         name: "Trèfle à quatre feuilles",
         crafts: []
     },
     {
         id: 27,
+        rarity: 1,
+        category: "raw",
         name: "Bourgeon de camomille",
         crafts: []
     },
     {
         id: 28,
+        rarity: 1,
+        category: "raw",
         name: "Pétale de safran",
         crafts: []
     },
     {
         id: 29,
+        rarity: 1,
+        category: "raw",
         name: "Feuille de sauge",
         crafts: []
     },
     {
         id: 30,
+        rarity: 2,
+        category: "raw",
         name: "Feuille éternelle",
         crafts: []
     },
     {
         id: 31,
+        rarity: 1,
+        category: "raw",
         name: "Feuille dure",
         crafts: []
     },
     {
         id: 32,
+        rarity: 0,
+        category: "raw",
         name: "Feuille",
         crafts: []
     },
     {
         id: 33,
+        rarity: 3,
+        category: "raw",
         name: "Camomille ensoleillée",
         crafts: []
     },
     {
         id: 34,
+        rarity: 0,
+        category: "raw",
         name: "Fretin",
         crafts: []
     },
     {
         id: 35,
+        rarity: 3,
+        category: "raw",
         name: "Raie-aigle",
         crafts: []
     },
     {
         id: 36,
+        rarity: 1,
+        category: "raw",
         name: "Mulet aux yeux jaunes",
         crafts: []
     },
     {
         id: 37,
+        rarity: 1,
+        category: "raw",
         name: "Carpe miroir",
         crafts: []
     },
     {
         id: 38,
+        rarity: 2,
+        category: "raw",
         name: "Chevalier lancier",
         crafts: []
     },
     {
         id: 39,
+        rarity: 1,
+        category: "raw",
         name: "Sébaste aux yeux jaunes",
         crafts: []
     },
     {
         id: 40,
+        rarity: 1,
+        category: "raw",
         name: "Poisson-mandarin",
         crafts: []
     },
     {
         id: 41,
+        rarity: 1,
+        category: "raw",
         name: "Grand barracuda",
         crafts: []
     },
     {
         id: 42,
+        rarity: 1,
+        category: "raw",
         name: "Sébaste-tigre",
         crafts: []
     },
     {
         id: 43,
+        rarity: 2,
+        category: "raw",
         name: "Mérou bossu",
         crafts: []
     },
     {
         id: 44,
+        rarity: 1,
+        category: "raw",
         name: "Poisson-clown",
         crafts: []
     },
     {
         id: 45,
+        rarity: 1,
+        category: "raw",
         name: "Poisson-chat",
         crafts: []
     },
     {
         id: 46,
+        rarity: 1,
+        category: "raw",
         name: "Truite",
         crafts: []
     },
     {
         id: 47,
+        rarity: 1,
+        category: "raw",
         name: "Achigan à grande bouche",
         crafts: []
     },
     {
         id: 48,
+        rarity: 2,
+        category: "raw",
         name: "Sardine argentée",
         crafts: []
     },
     {
         id: 49,
+        rarity: 1,
+        category: "raw",
         name: "Saumon",
         crafts: []
     },
     {
         id: 50,
+        rarity: 1,
+        category: "raw",
         name: "Alose à gésier",
         crafts: []
     },
     {
         id: 51,
+        rarity: 1,
+        category: "raw",
         name: "Prochilodus bleu",
         crafts: []
     },
     {
         id: 52,
+        rarity: 1,
+        category: "raw",
         name: "Perroquet bleu",
         crafts: []
     },
     {
         id: 53,
+        rarity: 3,
+        category: "raw",
         name: "Pompano",
         crafts: []
     },
     {
         id: 54,
+        rarity: 1,
+        category: "raw",
         name: "Saumon masou",
         crafts: []
     },
     {
         id: 55,
+        rarity: 1,
+        category: "raw",
         name: "Ayu",
         crafts: []
     },
     {
         id: 56,
+        rarity: 1,
+        category: "raw",
         name: "Poisson-globe",
         crafts: []
     },
     {
         id: 57,
+        rarity: 1,
+        category: "raw",
         name: "Barbotte coréenne",
         crafts: []
     },
     {
         id: 58,
+        rarity: 3,
+        category: "raw",
         name: "Crabe",
         crafts: []
     },
     {
         id: 59,
+        rarity: 0,
+        category: "raw",
         name: "Poisson-lion",
         crafts: []
     },
     {
         id: 60,
+        rarity: 1,
+        category: "raw",
         name: "Maquereau arc-en ciel",
         crafts: []
     },
     {
         id: 61,
+        rarity: 3,
+        category: "raw",
         name: "Grande carpe rayée",
         crafts: []
     },
     {
         id: 62,
+        rarity: 3,
+        category: "raw",
         name: "Maquereau tranquille",
         crafts: []
     },
     {
         id: 63,
+        rarity: 0,
+        category: "raw",
         name: "Mangue",
         crafts: []
     },
     {
         id: 64,
+        rarity: 3,
+        category: "raw",
         name: "Mangue à double pulpes",
         crafts: []
     },
     {
         id: 65,
+        rarity: 2,
+        category: "raw",
         name: "Mangue gelée",
         crafts: []
     },
     {
         id: 66,
+        rarity: 0,
+        category: "raw",
         name: "Pêche",
         crafts: []
     },
     {
         id: 67,
+        rarity: 1,
+        category: "raw",
         name: "Pomme",
         crafts: []
     },
     {
         id: 68,
+        rarity: 2,
+        category: "raw",
         name: "Pomme sucrée",
         crafts: []
     },
     {
         id: 69,
+        rarity: 1,
+        category: "raw",
         name: "Fraise",
         crafts: []
     },
     {
         id: 70,
+        rarity: 1,
+        category: "raw",
         name: "Kiwi",
         crafts: []
     },
     {
         id: 71,
+        rarity: 0,
+        category: "raw",
         name: "Viande",
         crafts: []
     },
     {
         id: 72,
+        rarity: 0,
+        category: "raw",
         name: "Poulet",
         crafts: []
     },
     {
         id: 73,
+        rarity: 1,
+        category: "cooking",
         name: "Sucre",
         crafts: []
     },
     {
         id: 74,
+        rarity: 2,
+        category: "cooking",
         name: "Sucre premium",
         crafts: [
             {
@@ -391,6 +541,8 @@ const dataText = [
     },
     {
         id: 75,
+        rarity: 3,
+        category: "cooking",
         name: "Sucre de premier choix",
         crafts: [
             {
@@ -416,10 +568,14 @@ const dataText = [
     {
         id: 76,
         name: "Sel",
+        category: "cooking",
+        rarity: 1,
         crafts: []
     },
     {
         id: 77,
+        rarity: 2,
+        category: "cooking",
         name: "Sel premium",
         crafts: [
             {
@@ -440,6 +596,8 @@ const dataText = [
     },
     {
         id: 78,
+        rarity: 3,
+        category: "cooking",
         name: "Sel de premier choix",
         crafts: [
             {
@@ -464,11 +622,15 @@ const dataText = [
     },
     {
         id: 79,
+        rarity: 1,
+        category: "cooking",
         name: "Farine",
         crafts: []
     },
     {
         id: 80,
+        rarity: 2,
+        category: "cooking",
         name: "Farine premium",
         crafts: [
             {
@@ -489,6 +651,8 @@ const dataText = [
     },
     {
         id: 81,
+        rarity: 3,
+        category: "cooking",
         name: "Farine de premier choix",
         crafts: [
             {
@@ -513,11 +677,15 @@ const dataText = [
     },
     {
         id: 82,
+        rarity: 0,
+        category: "cooking",
         name: "Eau naturelle",
         crafts: []
     },
     {
         id: 83,
+        rarity: 1,
+        category: "cooking",
         name: "Eau naturelle premium",
         crafts: [
             {
@@ -538,6 +706,8 @@ const dataText = [
     },
     {
         id: 84,
+        rarity: 2,
+        category: "cooking",
         name: "Eau naturelle de premier choix",
         crafts: [
             {
@@ -558,31 +728,43 @@ const dataText = [
     },
     {
         id: 85,
+        rarity: 1,
+        category: "raw",
         name: "Agneau",
         crafts: []
     },
     {
         id: 86,
+        rarity: 1,
+        category: "raw",
         name: "Bœuf",
         crafts: []
     },
     {
         id: 87,
+        rarity: 1,
+        category: "raw",
         name: "Porc",
         crafts: []
     },
     {
         id: 88,
+        rarity: 2,
+        category: "cooking",
         name: "Poivre",
         crafts: []
     },
     {
         id: 89,
+        rarity: 2,
+        category: "cooking",
         name: "Huile d'olive",
         crafts: []
     },
     {
         id: 90,
+        rarity: 2,
+        category: "cooking",
         name: "Ingrédient tout-usage normal",
         crafts: [
             {
@@ -607,6 +789,8 @@ const dataText = [
     },
     {
         id: 91,
+        rarity: 3,
+        category: "cooking",
         name: "Ingrédient tout-usage premium",
         crafts: [
             {
@@ -631,111 +815,155 @@ const dataText = [
     },
     {
         id: 95,
+        rarity: 4,
+        category: "raw",
         name: "Noyau magique légendaire",
         crafts: []
     },
     {
         id: 96,
+        rarity: 3,
+        category: "raw",
         name: "Noyau magique puissant",
         crafts: []
     },
     {
         id: 97,
+        rarity: 2,
+        category: "raw",
         name: "Noyau magique",
         crafts: []
     },
     {
         id: 98,
+        rarity: 1,
+        category: "raw",
         name: "Noyau magique faible",
         crafts: []
     },
     {
         id: 99,
+        rarity: 2,
+        category: "raw",
         name: "Pierre enchantée",
         crafts: []
     },
     {
         id: 108,
+        rarity: 2,
+        category: "raw",
         name: "Pince de Gigas",
         crafts: []
     },
     {
         id: 109,
+        rarity: 2,
+        category: "raw",
         name: "Taillanderie hallebardière",
         crafts: []
     },
     {
         id: 110,
+        rarity: 2,
+        category: "raw",
         name: "Souffle de la Terre",
         crafts: []
     },
     {
         id: 111,
+        rarity: 3,
+        category: "raw",
         name: "Colère de la Terre",
         crafts: []
     },
     {
         id: 112,
+        rarity: 4,
+        category: "raw",
         name: "Âme de la Terre",
         crafts: []
     },
     {
         id: 129,
+        rarity: 2,
+        category: "raw",
         name: "Crâne du Seigneur squelette",
         crafts: []
     },
     {
         id: 131,
+        rarity: 2,
+        category: "raw",
         name: "Queue du concepteur de labyrinthe",
         crafts: []
     },
     {
         id: 133,
+        rarity: 2,
+        category: "raw",
         name: "Peau de renard du lac",
         crafts: []
     },
     {
         id: 135,
+        rarity: 2,
+        category: "raw",
         name: "Brochette de gardien des glaces",
         crafts: []
     },
     {
         id: 137,
+        rarity: 2,
+        category: "raw",
         name: "Espaulier de Néogalagon",
         crafts: []
     },
     {
         id: 146,
+        rarity: 2,
+        category: "raw",
         name: "Cœur de flammes",
         crafts: []
     },
     {
         id: 147,
+        rarity: 3,
+        category: "raw",
         name: "Cœur d'esprit de feu",
         crafts: []
     },
     {
         id: 148,
+        rarity: 4,
+        category: "raw",
         name: "Cœur de dieu du feu",
         crafts: []
     },
     {
         id: 155,
+        rarity: 2,
+        category: "raw",
         name: "Givre de l'aube",
         crafts: []
     },
     {
         id: 156,
+        rarity: 3,
+        category: "raw",
         name: "Givre extrême",
         crafts: []
     },
     {
         id: 157,
+        rarity: 4,
+        category: "raw",
         name: "Givre de mille ans",
         crafts: []
     },
     {
         id: 423,
+        rarity: 0,
+        category: "alchemy",
         name: "Gemme ciselée rouge (inf.)",
         crafts: [
             {
@@ -752,6 +980,8 @@ const dataText = [
     },
     {
         id: 424,
+        rarity: 0,
+        category: "alchemy",
         name: "Gemme ciselée bleue (inf.)",
         crafts: [
             {
@@ -768,6 +998,8 @@ const dataText = [
     },
     {
         id: 425,
+        rarity: 0,
+        category: "alchemy",
         name: "Gemme ciselée verte (inf.)",
         crafts: [
             {
@@ -784,6 +1016,8 @@ const dataText = [
     },
     {
         id: 426,
+        rarity: 0,
+        category: "alchemy",
         name: "Livre de sorts I : recette d'attaque",
         crafts: [
             {
@@ -804,6 +1038,8 @@ const dataText = [
     },
     {
         id: 430,
+        rarity: 1,
+        category: "alchemy",
         name: "Gemme ciselée rouge (moy.)",
         crafts: [
             {
@@ -820,6 +1056,8 @@ const dataText = [
     },
     {
         id: 431,
+        rarity: 1,
+        category: "alchemy",
         name: "Gemme ciselée bleue (moy.)",
         crafts: [
             {
@@ -836,6 +1074,8 @@ const dataText = [
     },
     {
         id: 432,
+        rarity: 1,
+        category: "alchemy",
         name: "Gemme ciselée verte (moy.)",
         crafts: [
             {
@@ -852,6 +1092,8 @@ const dataText = [
     },
     {
         id: 433,
+        rarity: 0,
+        category: "alchemy",
         name: "Livre de sorts I : recette de défense",
         crafts: [
             {
@@ -872,6 +1114,8 @@ const dataText = [
     },
     {
         id: 437,
+        rarity: 2,
+        category: "alchemy",
         name: "Gemme ciselée rouge (sup.)",
         crafts: [
             {
@@ -896,6 +1140,8 @@ const dataText = [
     },
     {
         id: 438,
+        rarity: 2,
+        category: "alchemy",
         name: "Gemme ciselée bleue (sup.)",
         crafts: [
             {
@@ -920,6 +1166,8 @@ const dataText = [
     },
     {
         id: 439,
+        rarity: 2,
+        category: "alchemy",
         name: "Gemme ciselée verte (sup.)",
         crafts: [
             {
@@ -944,6 +1192,8 @@ const dataText = [
     },
     {
         id: 440,
+        rarity: 0,
+        category: "alchemy",
         name: "Pierre de soleil (inf.)",
         crafts: [
             {
@@ -964,6 +1214,8 @@ const dataText = [
     },
     {
         id: 441,
+        rarity: 0,
+        category: "alchemy",
         name: "Pierre de lune (inf.)",
         crafts: [
             {
@@ -984,6 +1236,8 @@ const dataText = [
     },
     {
         id: 442,
+        rarity: 0,
+        category: "alchemy",
         name: "Pierre de galaxie (inf.)",
         crafts: [
             {
@@ -1004,6 +1258,8 @@ const dataText = [
     },
     {
         id: 443,
+        rarity: 0,
+        category: "alchemy",
         name: "Livre de sorts I : Utilité",
         crafts: [
             {
@@ -1024,6 +1280,8 @@ const dataText = [
     },
     {
         id: 444,
+        rarity: 1,
+        category: "alchemy",
         name: "Vélin inconnu",
         crafts: [
             {
@@ -1048,6 +1306,8 @@ const dataText = [
     },
     {
         id: 445,
+        rarity: 1,
+        category: "alchemy",
         name: "Pierre de soleil (moy.)",
         crafts: [
             {
@@ -1068,6 +1328,8 @@ const dataText = [
     },
     {
         id: 446,
+        rarity: 1,
+        category: "alchemy",
         name: "Pierre de lune (moy.)",
         crafts: [
             {
@@ -1088,6 +1350,8 @@ const dataText = [
     },
     {
         id: 448,
+        rarity: 1,
+        category: "alchemy",
         name: "Pierre de galaxie (moy.)",
         crafts: [
             {
@@ -1108,6 +1372,8 @@ const dataText = [
     },
     {
         id: 461,
+        rarity: 3,
+        category: "alchemy",
         name: "Gemme ciselée rouge (supr.)",
         crafts: [
             {
@@ -1132,6 +1398,8 @@ const dataText = [
     },
     {
         id: 462,
+        rarity: 2,
+        category: "alchemy",
         name: "Pierre de lune (sup.)",
         crafts: [
             {
@@ -1156,6 +1424,8 @@ const dataText = [
     },
     {
         id: 464,
+        rarity: 1,
+        category: "alchemy",
         name: "Livre de sorts II : recette d'attaque",
         crafts: [
             {
@@ -1176,6 +1446,8 @@ const dataText = [
     },
     {
         id: 465,
+        rarity: 1,
+        category: "alchemy",
         name: "Livre de sorts II : recette de défense",
         crafts: [
             {
@@ -1196,6 +1468,8 @@ const dataText = [
     },
     {
         id: 466,
+        rarity: 1,
+        category: "alchemy",
         name: "Livre de sorts II : Utilité",
         crafts: [
             {
@@ -1216,6 +1490,8 @@ const dataText = [
     },
     {
         id: 479,
+        rarity: 3,
+        category: "alchemy",
         name: "Gemme ciselée bleue (supr.)",
         crafts: [
             {
@@ -1240,6 +1516,8 @@ const dataText = [
     },
     {
         id: 480,
+        rarity: 2,
+        category: "alchemy",
         name: "Pierre de soleil (sup.)",
         crafts: [
             {
@@ -1264,6 +1542,8 @@ const dataText = [
     },
     {
         id: 481,
+        rarity: 2,
+        category: "alchemy",
         name: "Pierre de galaxie (sup.)",
         crafts: [
             {
@@ -1288,6 +1568,8 @@ const dataText = [
     },
     {
         id: 482,
+        rarity: 2,
+        category: "alchemy",
         name: "Livre de sorts III : recette d'attaque",
         crafts: [
             {
@@ -1316,6 +1598,8 @@ const dataText = [
     },
     {
         id: 483,
+        rarity: 2,
+        category: "alchemy",
         name: "Livre de sorts III : recette de défense",
         crafts: [
             {
@@ -1344,6 +1628,8 @@ const dataText = [
     },
     {
         id: 484,
+        rarity: 2,
+        category: "alchemy",
         name: "Livre de sorts III : Utilité",
         crafts: [
             {
@@ -1372,6 +1658,8 @@ const dataText = [
     },
     {
         id: 487,
+        rarity: 3,
+        category: "alchemy",
         name: "Gemme ciselée verte (supr.)",
         crafts: [
             {
@@ -1396,6 +1684,8 @@ const dataText = [
     },
     {
         id: 488,
+        rarity: 3,
+        category: "alchemy",
         name: "Pierre de soleil (supr.)",
         crafts: [
             {
@@ -1420,6 +1710,8 @@ const dataText = [
     },
     {
         id: 489,
+        rarity: 3,
+        category: "alchemy",
         name: "Pierre de lune (supr.)",
         crafts: [
             {
@@ -1444,6 +1736,8 @@ const dataText = [
     },
     {
         id: 490,
+        rarity: 3,
+        category: "alchemy",
         name: "Pierre de galaxie (supr.)",
         crafts: [
             {
@@ -1468,6 +1762,8 @@ const dataText = [
     },
     {
         id: 491,
+        rarity: 3,
+        category: "alchemy",
         name: "Livre de sorts IV : recette d'attaque",
         crafts: [
             {
@@ -1496,6 +1792,8 @@ const dataText = [
     },
     {
         id: 492,
+        rarity: 3,
+        category: "alchemy",
         name: "Livre de sorts IV : recette de défense",
         crafts: [
             {
@@ -1524,6 +1822,8 @@ const dataText = [
     },
     {
         id: 493,
+        rarity: 3,
+        category: "alchemy",
         name: "Livre de sorts IV : Utilité",
         crafts: [
             {
@@ -1552,6 +1852,8 @@ const dataText = [
     },
     {
         id: 494,
+        rarity: 4,
+        category: "alchemy",
         name: "Gemme ciselée rouge (ultime)",
         crafts: [
             {
@@ -1580,6 +1882,8 @@ const dataText = [
     },
     {
         id: 495,
+        rarity: 4,
+        category: "alchemy",
         name: "Gemme ciselée bleue (ultime)",
         crafts: [
             {
@@ -1608,6 +1912,8 @@ const dataText = [
     },
     {
         id: 496,
+        rarity: 4,
+        category: "alchemy",
         name: "Gemme ciselée verte (ultime)",
         crafts: [
             {
@@ -1636,6 +1942,8 @@ const dataText = [
     },
     {
         id: 497,
+        rarity: 4,
+        category: "alchemy",
         name: "Pierre de soleil (ultime)",
         crafts: [
             {
@@ -1664,6 +1972,8 @@ const dataText = [
     },
     {
         id: 498,
+        rarity: 4,
+        category: "alchemy",
         name: "Pierre de lune (ultime)",
         crafts: [
             {
@@ -1692,6 +2002,8 @@ const dataText = [
     },
     {
         id: 499,
+        rarity: 4,
+        category: "alchemy",
         name: "Pierre de galaxie (ultime)",
         crafts: [
             {
@@ -1720,6 +2032,8 @@ const dataText = [
     },
     {
         id: 500,
+        rarity: 4,
+        category: "alchemy",
         name: "Livre de sorts V : recette d'attaque",
         crafts: [
             {
@@ -1748,6 +2062,8 @@ const dataText = [
     },
     {
         id: 501,
+        rarity: 4,
+        category: "alchemy",
         name: "Livre de sorts V : recette de défense",
         crafts: [
             {
@@ -1776,6 +2092,8 @@ const dataText = [
     },
     {
         id: 502,
+        rarity: 4,
+        category: "alchemy",
         name: "Livre de sorts V : Utilité",
         crafts: [
             {
@@ -1804,6 +2122,8 @@ const dataText = [
     },
     {
         id: 504,
+        rarity: 0,
+        category: "processing",
         name: "Lingot de fer",
         crafts: [
             {
@@ -1830,6 +2150,8 @@ const dataText = [
     },
     {
         id: 505,
+        rarity: 0,
+        category: "processing",
         name: "Lingot d'argent",
         crafts: [
             {
@@ -1846,6 +2168,8 @@ const dataText = [
     },
     {
         id: 506,
+        rarity: 0,
+        category: "processing",
         name: "Grenat",
         crafts: [
             {
@@ -1862,6 +2186,8 @@ const dataText = [
     },
     {
         id: 507,
+        rarity: 0,
+        category: "processing",
         name: "Opale",
         crafts: [
             {
@@ -1878,6 +2204,8 @@ const dataText = [
     },
     {
         id: 508,
+        rarity: 0,
+        category: "processing",
         name: "Bois fin",
         crafts: [
             {
@@ -1894,6 +2222,8 @@ const dataText = [
     },
     {
         id: 509,
+        rarity: 0,
+        category: "processing",
         name: "Ficelle fine",
         crafts: [
             {
@@ -1910,6 +2240,8 @@ const dataText = [
     },
     {
         id: 510,
+        rarity: 0,
+        category: "processing",
         name: "Outil de fabrication de potion",
         crafts: [
             {
@@ -1930,6 +2262,8 @@ const dataText = [
     },
     {
         id: 511,
+        rarity: 1,
+        category: "processing",
         name: "Lingot de cobalt",
         crafts: [
             {
@@ -1946,6 +2280,8 @@ const dataText = [
     },
     {
         id: 512,
+        rarity: 0,
+        category: "processing",
         name: "Zicron",
         crafts: [
             {
@@ -1962,6 +2298,8 @@ const dataText = [
     },
     {
         id: 513,
+        rarity: 1,
+        category: "processing",
         name: "Pelote brute",
         crafts: [
             {
@@ -1986,6 +2324,8 @@ const dataText = [
     },
     {
         id: 514,
+        rarity: 0,
+        category: "processing",
         name: "Dé brillant",
         crafts: [
             {
@@ -2020,6 +2360,8 @@ const dataText = [
     },
     {
         id: 515,
+        rarity: 1,
+        category: "processing",
         name: "Lingot de mythril",
         crafts: [
             {
@@ -2036,6 +2378,8 @@ const dataText = [
     },
     {
         id: 516,
+        rarity: 1,
+        category: "processing",
         name: "Lingot d'or",
         crafts: [
             {
@@ -2052,6 +2396,8 @@ const dataText = [
     },
     {
         id: 517,
+        rarity: 1,
+        category: "processing",
         name: "Rubis",
         crafts: [
             {
@@ -2068,6 +2414,8 @@ const dataText = [
     },
     {
         id: 518,
+        rarity: 1,
+        category: "processing",
         name: "Aigue-marine",
         crafts: [
             {
@@ -2084,6 +2432,8 @@ const dataText = [
     },
     {
         id: 519,
+        rarity: 1,
+        category: "processing",
         name: "Péridote",
         crafts: [
             {
@@ -2100,6 +2450,8 @@ const dataText = [
     },
     {
         id: 520,
+        rarity: 1,
+        category: "processing",
         name: "Bois normal",
         crafts: [
             {
@@ -2120,6 +2472,8 @@ const dataText = [
     },
     {
         id: 521,
+        rarity: 1,
+        category: "processing",
         name: "Ficelle normale",
         crafts: [
             {
@@ -2140,6 +2494,8 @@ const dataText = [
     },
     {
         id: 522,
+        rarity: 1,
+        category: "processing",
         name: "Outil de fabrication pour le ciselage",
         crafts: [
             {
@@ -2164,6 +2520,8 @@ const dataText = [
     },
     {
         id: 523,
+        rarity: 1,
+        category: "processing",
         name: "Fragement d'amélioration",
         crafts: [
             {
@@ -2206,6 +2564,8 @@ const dataText = [
     },
     {
         id: 524,
+        rarity: 1,
+        category: "processing",
         name: "Broche aux rubis",
         crafts: [
             {
@@ -2240,6 +2600,8 @@ const dataText = [
     },
     {
         id: 525,
+        rarity: 2,
+        category: "processing",
         name: "Lingot de fluorite",
         crafts: [
             {
@@ -2256,6 +2618,8 @@ const dataText = [
     },
     {
         id: 526,
+        rarity: 2,
+        category: "processing",
         name: "Pelote utile",
         crafts: [
             {
@@ -2280,6 +2644,8 @@ const dataText = [
     },
     {
         id: 527,
+        rarity: 2,
+        category: "processing",
         name: "Pièce d'échec",
         crafts: [
             {
@@ -2322,6 +2688,8 @@ const dataText = [
     },
     {
         id: 528,
+        rarity: 2,
+        category: "processing",
         name: "Lingot d'adamantium",
         crafts: [
             {
@@ -2338,6 +2706,8 @@ const dataText = [
     },
     {
         id: 529,
+        rarity: 2,
+        category: "processing",
         name: "Lingot de platine",
         crafts: [
             {
@@ -2364,6 +2734,8 @@ const dataText = [
     },
     {
         id: 530,
+        rarity: 3,
+        category: "processing",
         name: "Obsidienne",
         crafts: [
             {
@@ -2380,6 +2752,8 @@ const dataText = [
     },
     {
         id: 531,
+        rarity: 2,
+        category: "processing",
         name: "Diamant rouge",
         crafts: [
             {
@@ -2396,6 +2770,8 @@ const dataText = [
     },
     {
         id: 532,
+        rarity: 2,
+        category: "processing",
         name: "Saphir",
         crafts: [
             {
@@ -2412,6 +2788,8 @@ const dataText = [
     },
     {
         id: 533,
+        rarity: 2,
+        category: "processing",
         name: "Émeraude",
         crafts: [
             {
@@ -2428,6 +2806,8 @@ const dataText = [
     },
     {
         id: 534,
+        rarity: 2,
+        category: "processing",
         name: "Bois solide",
         crafts: [
             {
@@ -2448,6 +2828,8 @@ const dataText = [
     },
     {
         id: 535,
+        rarity: 2,
+        category: "processing",
         name: "Outil de fabrication de potion premium",
         crafts: [
             {
@@ -2468,6 +2850,8 @@ const dataText = [
     },
     {
         id: 536,
+        rarity: 2,
+        category: "processing",
         name: "Outil de fabrication pour le ciselage premium",
         crafts: [
             {
@@ -2492,6 +2876,8 @@ const dataText = [
     },
     {
         id: 537,
+        rarity: 2,
+        category: "processing",
         name: "Outil de fabrication d'enchantement",
         crafts: [
             {
@@ -2516,6 +2902,8 @@ const dataText = [
     },
     {
         id: 538,
+        rarity: 1,
+        category: "processing",
         name: "Pierre d'amélioration de rune",
         crafts: [
             {
@@ -2536,6 +2924,8 @@ const dataText = [
     },
     {
         id: 539,
+        rarity: 2,
+        category: "processing",
         name: "Plume brillante",
         crafts: [
             {
@@ -2582,6 +2972,8 @@ const dataText = [
     },
     {
         id: 540,
+        rarity: 3,
+        category: "processing",
         name: "Tritium",
         crafts: [
             {
@@ -2598,6 +2990,8 @@ const dataText = [
     },
     {
         id: 541,
+        rarity: 3,
+        category: "processing",
         name: "Topaze",
         crafts: [
             {
@@ -2614,6 +3008,8 @@ const dataText = [
     },
     {
         id: 542,
+        rarity: 3,
+        category: "processing",
         name: "Pelote",
         crafts: [
             {
@@ -2638,6 +3034,8 @@ const dataText = [
     },
     {
         id: 543,
+        rarity: 2,
+        category: "processing",
         name: "Dragon des mers coloré",
         crafts: [
             {
@@ -2688,6 +3086,8 @@ const dataText = [
     },
     {
         id: 544,
+        rarity: 3,
+        category: "processing",
         name: "Pierre de restauration de durabilité",
         crafts: [
             {
@@ -2740,6 +3140,8 @@ const dataText = [
     },
     {
         id: 545,
+        rarity: 3,
+        category: "processing",
         name: "Paon flamboyant",
         crafts: [
             {
@@ -2768,6 +3170,8 @@ const dataText = [
     },
     {
         id: 546,
+        rarity: 4,
+        category: "processing",
         name: "Poupée fantaisie artisanale",
         crafts: [
             {
@@ -2792,11 +3196,15 @@ const dataText = [
     },
     {
         id: 646,
+        rarity: 2,
+        category: "raw",
         name: "Éclat de verrouillage",
         crafts: []
     },
     {
         id: 647,
+        rarity: 2,
+        category: "raw",
         name: "Dard pointu",
         crafts: []
     }

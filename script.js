@@ -1,11 +1,38 @@
 
 const data = new Map(dataText.map((item) => [item.id, item]));
+var root = null;
 
 function main() {
-    const root = document.getElementById("root");
-    data.forEach(item => {
-        if (item.crafts.length>0) addMainPageItem(root, item);
-    });
+    root = document.getElementById("root");
+    displayMainPage();
+}
+
+function sortItem(item1, item2) {
+    if (item1.rarity < item2.rarity) return -1;
+    if (item1.rarity > item2.rarity) return 1;
+    if (item1.name < item2.name) return -1;
+    if (item1.name > item2.name) return 1;
+    return 0;
+}
+
+function displayMainPage() {
+    const categories = [
+        {title: "Matériaux brutes", name: "raw"},
+        {title: "Façonnage", name: "processing"},
+        {title: "Cuisine", name: "cooking"},
+        {title: "Alchimie", name: "alchemy"}
+    ];
+    cleanHtmlElement(root);
+    categories.forEach((category) => {
+        let e = document.createElement("div");
+        e.className = "category-container";
+        let f = document.createElement("div");
+        f.className = "category-title";
+        f.innerHTML = category.title;
+        e.appendChild(f);
+        Array.from(data.values()).filter((value) => value.category === category.name).sort(sortItem).forEach((value) => addMainPageItem(e, value));
+        root.appendChild(e);
+    })
 }
 
 function addMainPageItem(htmlElement, item) {
@@ -32,10 +59,7 @@ function addMainPageItem(htmlElement, item) {
         e.className = "go-back-button";
         e.innerHTML = "Retour à la liste";
         e.addEventListener('click', () => {
-            cleanHtmlElement(htmlElement);
-            data.forEach(item => {
-                if (item.crafts.length>0) addMainPageItem(htmlElement, item);
-            });
+            displayMainPage();
         });
         htmlElement.appendChild(e);
         addCalculePageItem(htmlElement, item.id, quantity);
