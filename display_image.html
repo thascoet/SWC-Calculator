@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+        let body = document.getElementById("body");
+
+        for(let i=0; i<649; i++) {
+            let e = document.createElement("div");
+            e.style = "width: 150px; height: 170px; display: flex; flex-direction: column; margin: 5px";
+            let f = document.createElement("img");
+            f.style = "width: 150px; height: 150px";
+            f.src = `./img/${i}.png`;
+            e.appendChild(f);
+            f = document.createElement("p");
+            f.style = "margin : 0px; text-align: center"
+            f.innerHTML = String(i);
+            e.appendChild(f);
+            body.appendChild(e);
+        }});
+    </script>
+</head>
+<body id="body" style="display: flex; flex-direction: row; flex-wrap: wrap;">
+    
+</body>
+</html>

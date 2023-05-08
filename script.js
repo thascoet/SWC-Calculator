@@ -70,6 +70,8 @@ function addMainPageItem(htmlElement, item) {
 
 function addCalculePageItem(htmlElement, id, quantity) {
 
+    let totalCost = 0;
+
     let item = data.get(id);
     let e = document.createElement("div");
     e.className = "calcule-container";
@@ -85,20 +87,41 @@ function addCalculePageItem(htmlElement, id, quantity) {
     g = document.createElement("p");
     g.innerHTML = quantity;
     f.appendChild(g);
-    e.appendChild(f);
-
-    if (item.crafts.length > 0) {
+    if (quantity*item.crafts.length > 0) {
+        g = document.createElement("div");
+        g.className = "text-icon"
+        let h = document.createElement("img");
+        h.src = "./img/rahil.png";
+        g.appendChild(h);
+        h = document.createElement("p");
+        h.innerHTML = ": "+String(quantity*item.crafts[0].cost);
+        g.appendChild(h);
+        f.appendChild(g);
+        g = document.createElement("div");
+        g.className = "text-icon"
+        h = document.createElement("p");
+        h.innerHTML = "Total ";
+        g.appendChild(h);
+        h = document.createElement("img");
+        h.src = "./img/rahil.png";
+        g.appendChild(h);
+        let i = document.createElement("p");
+        g.appendChild(i);
+        f.appendChild(g);
+        e.appendChild(f);
         f = document.createElement("div");
         f.className = "child-container";
+        totalCost += quantity*item.crafts[0].cost;
         item.crafts[0].items.forEach((craftItem) => {
             g = document.createElement("div");
-            addCalculePageItem(g, craftItem.id, quantity*craftItem.quantity);
+            totalCost += addCalculePageItem(g, craftItem.id, quantity*craftItem.quantity).cost;
             f.appendChild(g);
         })
-        e.appendChild(f);
+        i.innerHTML = ": "+String(totalCost)
     }
-    
+    e.appendChild(f);
     htmlElement.appendChild(e);
+    return {cost: totalCost};
 }
 
 function cleanHtmlElement(htmlElement) {

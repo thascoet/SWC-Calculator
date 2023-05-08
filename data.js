@@ -255,7 +255,7 @@ const dataText = [
         id: 36,
         rarity: 1,
         category: "raw",
-        name: "Mulet aux yeux jaunes",
+        name: "Mullet aux yeux jaunes",
         crafts: []
     },
     {
@@ -768,7 +768,7 @@ const dataText = [
         name: "Ingrédient tout-usage normal",
         crafts: [
             {
-                cost: 3000,
+                cost: 2000,
                 quantity: 1,
                 items: [
                     {
@@ -781,6 +781,24 @@ const dataText = [
                     },
                     {
                         id: 46,
+                        quantity: 1
+                    }
+                ]
+            },
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 66,
+                        quantity: 1
+                    },
+                    {
+                        id: 71,
+                        quantity: 1
+                    },
+                    {
+                        id: 49,
                         quantity: 1
                     }
                 ]
@@ -807,6 +825,24 @@ const dataText = [
                     },
                     {
                         id: 56,
+                        quantity: 1
+                    }
+                ]
+            },
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 3
+                    },
+                    {
+                        id: 86,
+                        quantity: 1
+                    },
+                    {
+                        id: 60,
                         quantity: 1
                     }
                 ]
@@ -849,6 +885,95 @@ const dataText = [
         crafts: []
     },
     {
+        id: 100,
+        rarity: 2,
+        category: "raw",
+        name: "Veille branche d'arbre",
+        crafts: []
+    },
+    {
+        id: 101,
+        rarity: 2,
+        category: "raw",
+        name: "Éclat d'armure du gardien magique",
+        crafts: []
+    },
+    {
+        id: 102,
+        rarity: 1,
+        category: "raw",
+        name: "Fragement d'énergie de transcendence",
+        crafts: []
+    },
+    {
+        id: 103,
+        rarity: 1,
+        category: "raw",
+        name: "Fragement d'énergie d'harmonie'",
+        crafts: []
+    },
+    {
+        id: 104,
+        rarity: 1,
+        category: "raw",
+        name: "Fragement d'énergie de chaos",
+        crafts: []
+    },
+    {
+        id: 105,
+        rarity: 2,
+        category: "alchemy",
+        name: "Énergie de transcendance",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 102,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 106,
+        rarity: 2,
+        category: "alchemy",
+        name: "Énergie d'harmonie",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 103,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 107,
+        rarity: 2,
+        category: "alchemy",
+        name: "Énergie de chaos",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 104,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
         id: 108,
         rarity: 2,
         category: "raw",
@@ -884,6 +1009,118 @@ const dataText = [
         crafts: []
     },
     {
+        id: 113,
+        rarity: 2,
+        category: "raw",
+        name: "Essence du vent",
+        crafts: []
+    },
+    {
+        id: 114,
+        rarity: 2,
+        category: "raw",
+        name: "Essence de feu",
+        crafts: []
+    },
+    {
+        id: 115,
+        rarity: 2,
+        category: "raw",
+        name: "Essence d'eau",
+        crafts: []
+    },
+    {
+        id: 116,
+        rarity: 2,
+        category: "raw",
+        name: "Essence de lumière",
+        crafts: []
+    },
+    {
+        id: 117,
+        rarity: 2,
+        category: "raw",
+        name: "Essence des ténèbres",
+        crafts: []
+    },
+    {
+        id: 118,
+        rarity: 2,
+        category: "raw",
+        name: "Jambe d'Arachnée",
+        crafts: []
+    },
+    {
+        id: 119,
+        rarity: 2,
+        category: "raw",
+        name: "Corne d'Arachnée",
+        crafts: []
+    },
+    {
+        id: 120,
+        rarity: 2,
+        category: "raw",
+        name: "Grande épée de Rhodes",
+        crafts: []
+    },
+    {
+        id: 121,
+        rarity: 2,
+        category: "raw",
+        name: "Morceau de bouclier de Rhodes",
+        crafts: []
+    },
+    {
+        id: 122,
+        rarity: 2,
+        category: "raw",
+        name: "Écaille de Tallades",
+        crafts: []
+    },
+    {
+        id: 123,
+        rarity: 2,
+        category: "raw",
+        name: "Carapace de Tallades",
+        crafts: []
+    },
+    {
+        id: 124,
+        rarity: 2,
+        category: "raw",
+        name: "Flacon de Shoerekly",
+        crafts: []
+    },
+    {
+        id: 125,
+        rarity: 2,
+        category: "raw",
+        name: "Filament de Shoerekly",
+        crafts: []
+    },
+    {
+        id: 126,
+        rarity: 2,
+        category: "raw",
+        name: "Lave de Borbo",
+        crafts: []
+    },
+    {
+        id: 127,
+        rarity: 2,
+        category: "raw",
+        name: "Magma de Borbo",
+        crafts: []
+    },
+    {
+        id: 128,
+        rarity: 2,
+        category: "raw",
+        name: "Côtes du Seigneur squelette",
+        crafts: []
+    },
+    {
         id: 129,
         rarity: 2,
         category: "raw",
@@ -891,10 +1128,24 @@ const dataText = [
         crafts: []
     },
     {
+        id: 130,
+        rarity: 2,
+        category: "raw",
+        name: "Ceinture du Concepteur de labyrinthe",
+        crafts: []
+    },
+    {
         id: 131,
         rarity: 2,
         category: "raw",
-        name: "Queue du concepteur de labyrinthe",
+        name: "Queue du Concepteur de labyrinthe",
+        crafts: []
+    },
+    {
+        id: 132,
+        rarity: 2,
+        category: "raw",
+        name: "Lame de hache du Renard du lac",
         crafts: []
     },
     {
@@ -905,6 +1156,13 @@ const dataText = [
         crafts: []
     },
     {
+        id: 134,
+        rarity: 2,
+        category: "raw",
+        name: "Masque du Gardien de glace",
+        crafts: []
+    },
+    {
         id: 135,
         rarity: 2,
         category: "raw",
@@ -912,10 +1170,73 @@ const dataText = [
         crafts: []
     },
     {
+        id: 136,
+        rarity: 2,
+        category: "raw",
+        name: "Casque de Néogalagon",
+        crafts: []
+    },
+    {
         id: 137,
         rarity: 2,
         category: "raw",
         name: "Espaulier de Néogalagon",
+        crafts: []
+    },
+    {
+        id: 138,
+        rarity: 3,
+        category: "raw",
+        name: "Fragement de corne de Vita et Tau",
+        crafts: []
+    },
+    {
+        id: 139,
+        rarity: 3,
+        category: "raw",
+        name: "Gemme rouge de Vita-Tau",
+        crafts: []
+    },
+    {
+        id: 140,
+        rarity: 3,
+        category: "raw",
+        name: "Torche de Metus",
+        crafts: []
+    },
+    {
+        id: 141,
+        rarity: 3,
+        category: "raw",
+        name: "Chaîne de Metus",
+        crafts: []
+    },
+    {
+        id: 142,
+        rarity: 3,
+        category: "raw",
+        name: "Corne de Naraka",
+        crafts: []
+    },
+    {
+        id: 143,
+        rarity: 3,
+        category: "raw",
+        name: "Griffe de Naraka",
+        crafts: []
+    },
+    {
+        id: 144,
+        rarity: 3,
+        category: "raw",
+        name: "Morceau de peau de Kaliya",
+        crafts: []
+    },
+    {
+        id: 145,
+        rarity: 3,
+        category: "raw",
+        name: "Globe oculaire de Kaliya",
         crafts: []
     },
     {
@@ -937,6 +1258,48 @@ const dataText = [
         rarity: 4,
         category: "raw",
         name: "Cœur de dieu du feu",
+        crafts: []
+    },
+    {
+        id: 149,
+        rarity: 3,
+        category: "raw",
+        name: "Cuir robuste",
+        crafts: []
+    },
+    {
+        id: 150,
+        rarity: 4,
+        category: "raw",
+        name: "Cuir altéré",
+        crafts: []
+    },
+    {
+        id: 151,
+        rarity: 1,
+        category: "raw",
+        name: "Morceau de rune magique",
+        crafts: []
+    },
+    {
+        id: 152,
+        rarity: 2,
+        category: "raw",
+        name: "Glace non fondu",
+        crafts: []
+    },
+    {
+        id: 153,
+        rarity: 3,
+        category: "raw",
+        name: "Crinière de Paghor",
+        crafts: []
+    },
+    {
+        id: 154,
+        rarity: 2,
+        category: "raw",
+        name: "Jeton de la protection divine",
         crafts: []
     },
     {
@@ -3195,6 +3558,2390 @@ const dataText = [
         ]
     },
     {
+        id: 547,
+        rarity: 0,
+        category: "cooking",
+        name: "Plat de carpe miroir",
+        crafts: [
+            {
+                cost: 500,
+                quantity: 1,
+                items: [
+                    {
+                        id: 37,
+                        quantity: 3
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            },
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 61,
+                        quantity: 2
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 548,
+        rarity: 0,
+        category: "cooking",
+        name: "Soupe de poisson mandarin",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 40,
+                        quantity: 2
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 549,
+        rarity: 0,
+        category: "cooking",
+        name: "Jus de mangue",
+        crafts: [
+            {
+                cost: 500,
+                quantity: 1,
+                items: [
+                    {
+                        id: 63,
+                        quantity: 3
+                    }
+                ]
+            },
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 64,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 550,
+        rarity: 0,
+        category: "cooking",
+        name: "Sébaste frit",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 39,
+                        quantity: 2
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 551,
+        rarity: 0,
+        category: "cooking",
+        name: "Brochette de mulet aux yeux jaunes",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 40,
+                        quantity: 3
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 552,
+        rarity: 0,
+        category: "cooking",
+        name: "Sandwich au jambon",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 71,
+                        quantity: 3
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 553,
+        rarity: 0,
+        category: "cooking",
+        name: "Bagel aux pêches",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 66,
+                        quantity: 3
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 554,
+        rarity: 0,
+        category: "cooking",
+        name: "Salade de basilic",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 555,
+        rarity: 0,
+        category: "cooking",
+        name: "Thé à la lavande",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 3
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 556,
+        rarity: 0,
+        category: "cooking",
+        name: "Potion de soins instantanés (faible)",
+        crafts: [
+            {
+                cost: 300,
+                quantity: 10,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 557,
+        rarity: 0,
+        category: "cooking",
+        name: "Tisane de soins instantanés (failble)",
+        crafts: [
+            {
+                cost: 300,
+                quantity: 10,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 558,
+        rarity: 1,
+        category: "cooking",
+        name: "Plat de barracuda",
+        crafts: [
+            {
+                cost: 1500,
+                quantity: 1,
+                items: [
+                    {
+                        id: 41,
+                        quantity: 4
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 559,
+        rarity: 1,
+        category: "cooking",
+        name: "Soupe de poisson tigre épicée",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 42,
+                        quantity: 4
+                    },
+                    {
+                        id: 88,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 560,
+        rarity: 1,
+        category: "cooking",
+        name: "Jus de pêche",
+        crafts: [
+            {
+                cost: 1500,
+                quantity: 1,
+                items: [
+                    {
+                        id: 66,
+                        quantity: 6
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    },
+                    {
+                        id: 73,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 561,
+        rarity: 1,
+        category: "cooking",
+        name: "Poulet frit assaisonné",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 72,
+                        quantity: 5
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    },
+                    {
+                        id: 89,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 562,
+        rarity: 1,
+        category: "cooking",
+        name: "Brochette de poisson-chat grillée",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 45,
+                        quantity: 5
+                    },
+                    {
+                        id: 76,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 563,
+        rarity: 1,
+        category: "Sandwich au poulet",
+        name: "Plat de barracuda",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 72,
+                        quantity: 6
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 564,
+        rarity: 1,
+        category: "cooking",
+        name: "Toast aux herbe",
+        crafts: [
+            {
+                cost: 1500,
+                quantity: 1,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 3
+                    },
+                    {
+                        id: 25,
+                        quantity: 3
+                    },
+                    {
+                        id: 79,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 565,
+        rarity: 1,
+        category: "cooking",
+        name: "Salade de mangue",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 4
+                    },
+                    {
+                        id: 63,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 566,
+        rarity: 1,
+        category: "cooking",
+        name: "Thé au basilic",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 6
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    },
+                    {
+                        id: 73,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 567,
+        rarity: 1,
+        category: "cooking",
+        name: "Potion de soins instantanés (inf.)",
+        crafts: [
+            {
+                cost: 600,
+                quantity: 10,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 2
+                    },
+                    {
+                        id: 34,
+                        quantity: 1
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 568,
+        rarity: 1,
+        category: "cooking",
+        name: "Plat de saumon",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 49,
+                        quantity: 4
+                    },
+                    {
+                        id: 38,
+                        quantity: 1
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 569,
+        rarity: 1,
+        category: "cooking",
+        name: "Soupe de bar",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 47,
+                        quantity: 6
+                    },
+                    {
+                        id: 88,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 570,
+        rarity: 1,
+        category: "cooking",
+        name: "Côtes braisées",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 71,
+                        quantity: 6
+                    },
+                    {
+                        id: 90,
+                        quantity: 1
+                    },
+                    {
+                        id: 76,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 571,
+        rarity: 1,
+        category: "cooking",
+        name: "Jus de kiwi",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 70,
+                        quantity: 8
+                    },
+                    {
+                        id: 82,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 572,
+        rarity: 1,
+        category: "cooking",
+        name: "Pomme frite",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 67,
+                        quantity: 8
+                    },
+                    {
+                        id: 79,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 573,
+        rarity: 1,
+        category: "cooking",
+        name: "Alose à gésiers grillée",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 80,
+                        quantity: 6
+                    },
+                    {
+                        id: 76,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 574,
+        rarity: 1,
+        category: "cooking",
+        name: "Steak de truite",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 46,
+                        quantity: 4
+                    },
+                    {
+                        id: 38,
+                        quantity: 1
+                    },
+                    {
+                        id: 76,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 575,
+        rarity: 1,
+        category: "cooking",
+        name: "Pain aux pommes",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 67,
+                        quantity: 8
+                    },
+                    {
+                        id: 79,
+                        quantity: 3
+                    },
+                    {
+                        id: 73,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 576,
+        rarity: 1,
+        category: "cooking",
+        name: "Pâtes à la viande",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 71,
+                        quantity: 8
+                    },
+                    {
+                        id: 79,
+                        quantity: 5
+                    },
+                    {
+                        id: 89,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 577,
+        rarity: 1,
+        category: "cooking",
+        name: "Salade de kiwi",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 70,
+                        quantity: 5
+                    },
+                    {
+                        id: 29,
+                        quantity: 3
+                    },
+                    {
+                        id: 89,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 578,
+        rarity: 1,
+        category: "cooking",
+        name: "Thé à la camomille",
+        crafts: [
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 27,
+                        quantity: 8
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            },
+            {
+                cost: 2000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 33,
+                        quantity: 5
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 579,
+        rarity: 1,
+        category: "cooking",
+        name: "Tisane de soins instantanés (inf.)",
+        crafts: [
+            {
+                cost: 600,
+                quantity: 10,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 2
+                    },
+                    {
+                        id: 34,
+                        quantity: 1
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 579,
+        rarity: 1,
+        category: "cooking",
+        name: "Tisane de soins instantanés (inf.)",
+        crafts: [
+            {
+                cost: 600,
+                quantity: 10,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 2
+                    },
+                    {
+                        id: 34,
+                        quantity: 1
+                    },
+                    {
+                        id: 82,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 581,
+        rarity: 1,
+        category: "cooking",
+        name: "Élixir d'XP normal",
+        crafts: [
+            {
+                cost: 600,
+                quantity: 1,
+                items: [
+                    {
+                        id: 98,
+                        quantity: 3
+                    },
+                    {
+                        id: 30,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 582,
+        rarity: 2,
+        category: "cooking",
+        name: "Plat de poisson-perroquet",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 52,
+                        quantity: 4
+                    },
+                    {
+                        id: 90,
+                        quantity: 1
+                    },
+                    {
+                        id: 88,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 583,
+        rarity: 2,
+        category: "cooking",
+        name: "Ragoût de prochilodus bleu",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 51,
+                        quantity: 6
+                    },
+                    {
+                        id: 90,
+                        quantity: 1
+                    },
+                    {
+                        id: 88,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 584,
+        rarity: 2,
+        category: "cooking",
+        name: "Queue de bœuf cuite à la vapeur",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 87,
+                        quantity: 3
+                    },
+                    {
+                        id: 71,
+                        quantity: 3
+                    },
+                    {
+                        id: 90,
+                        quantity: 2
+                    },
+                    {
+                        id: 88,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 585,
+        rarity: 2,
+        category: "cooking",
+        name: "Jus de pomme",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 67,
+                        quantity: 7
+                    },
+                    {
+                        id: 83,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 586,
+        rarity: 2,
+        category: "cooking",
+        name: "Légumes frits au safran",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 28,
+                        quantity: 5
+                    },
+                    {
+                        id: 29,
+                        quantity: 3
+                    },
+                    {
+                        id: 80,
+                        quantity: 1
+                    },
+                    {
+                        id: 89,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 587,
+        rarity: 2,
+        category: "cooking",
+        name: "Ayu grillé",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 55,
+                        quantity: 4
+                    },
+                    {
+                        id: 77,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 588,
+        rarity: 2,
+        category: "cooking",
+        name: "Steak de filet",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 87,
+                        quantity: 2
+                    },
+                    {
+                        id: 90,
+                        quantity: 1
+                    },
+                    {
+                        id: 77,
+                        quantity: 1
+                    },
+                    {
+                        id: 88,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 589,
+        rarity: 2,
+        category: "cooking",
+        name: "Pâtes au safran",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 27,
+                        quantity: 5
+                    },
+                    {
+                        id: 28,
+                        quantity: 7
+                    },
+                    {
+                        id: 89,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 590,
+        rarity: 2,
+        category: "cooking",
+        name: "Glace en bâtonnet",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 68,
+                        quantity: 4
+                    },
+                    {
+                        id: 92,
+                        quantity: 1
+                    },
+                    {
+                        id: 73,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 591,
+        rarity: 2,
+        category: "cooking",
+        name: "Salade de légumes",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 27,
+                        quantity: 5
+                    },
+                    {
+                        id: 28,
+                        quantity: 7
+                    },
+                    {
+                        id: 89,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 592,
+        rarity: 2,
+        category: "cooking",
+        name: "Potion de soins instantanés (moy.)",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 10,
+                items: [
+                    {
+                        id: 27,
+                        quantity: 1
+                    },
+                    {
+                        id: 510,
+                        quantity: 1
+                    },
+                    {
+                        id: 83,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 597,
+        rarity: 2,
+        category: "cooking",
+        name: "Plat de barbotte coréenne",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 57,
+                        quantity: 5
+                    },
+                    {
+                        id: 90,
+                        quantity: 2
+                    },
+                    {
+                        id: 88,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 598,
+        rarity: 2,
+        category: "cooking",
+        name: "Soupe de poisson-globe",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 56,
+                        quantity: 5
+                    },
+                    {
+                        id: 90,
+                        quantity: 1
+                    },
+                    {
+                        id: 77,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 599,
+        rarity: 2,
+        category: "cooking",
+        name: "Crabe à la vapeur",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 58,
+                        quantity: 3
+                    },
+                    {
+                        id: 90,
+                        quantity: 2
+                    },
+                    {
+                        id: 77,
+                        quantity: 1
+                    },
+                    {
+                        id: 88,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 600,
+        rarity: 2,
+        category: "cooking",
+        name: "Jus de fraise",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 69,
+                        quantity: 2
+                    },
+                    {
+                        id: 83,
+                        quantity: 2
+                    },
+                    {
+                        id: 74,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 601,
+        rarity: 2,
+        category: "cooking",
+        name: "Maquereau arc-en-ciel grillé",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 60,
+                        quantity: 7
+                    },
+                    {
+                        id: 77,
+                        quantity: 3
+                    }
+                ]
+            },
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 62,
+                        quantity: 5
+                    },
+                    {
+                        id: 77,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 602,
+        rarity: 2,
+        category: "cooking",
+        name: "Petit pain",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 70,
+                        quantity: 2
+                    },
+                    {
+                        id: 80,
+                        quantity: 2
+                    },
+                    {
+                        id: 73,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 603,
+        rarity: 2,
+        category: "cooking",
+        name: "Patês au pesto",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 3
+                    },
+                    {
+                        id: 26,
+                        quantity: 1
+                    },
+                    {
+                        id: 91,
+                        quantity: 1
+                    },
+                    {
+                        id: 80,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 604,
+        rarity: 2,
+        category: "cooking",
+        name: "Billes de glace",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 66,
+                        quantity: 5
+                    },
+                    {
+                        id: 152,
+                        quantity: 3
+                    },
+                    {
+                        id: 74,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 605,
+        rarity: 2,
+        category: "cooking",
+        name: "Salade de crabe",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 8
+                    },
+                    {
+                        id: 58,
+                        quantity: 2
+                    },
+                    {
+                        id: 65,
+                        quantity: 1
+                    },
+                    {
+                        id: 89,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 606,
+        rarity: 2,
+        category: "cooking",
+        name: "Thé à la sauge",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 8
+                    },
+                    {
+                        id: 30,
+                        quantity: 1
+                    },
+                    {
+                        id: 83,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 607,
+        rarity: 2,
+        category: "cooking",
+        name: "Tisane de soins instantanés (moy.)",
+        crafts: [
+            {
+                cost: 1000,
+                quantity: 10,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 1
+                    },
+                    {
+                        id: 510,
+                        quantity: 1
+                    },
+                    {
+                        id: 83,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 609,
+        rarity: 3,
+        category: "cooking",
+        name: "Plat de sardines argentées premium",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 48,
+                        quantity: 3
+                    },
+                    {
+                        id: 91,
+                        quantity: 1
+                    },
+                    {
+                        id: 78,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 610,
+        rarity: 3,
+        category: "cooking",
+        name: "Eau gazeuse à la pêche",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 66,
+                        quantity: 6
+                    },
+                    {
+                        id: 68,
+                        quantity: 1
+                    },
+                    {
+                        id: 84,
+                        quantity: 2
+                    },
+                    {
+                        id: 78,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 611,
+        rarity: 3,
+        category: "cooking",
+        name: "Délicieux cupcake",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 63,
+                        quantity: 5
+                    },
+                    {
+                        id: 69,
+                        quantity: 3
+                    },
+                    {
+                        id: 81,
+                        quantity: 2
+                    },
+                    {
+                        id: 75,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 612,
+        rarity: 3,
+        category: "cooking",
+        name: "Crème glacée frite",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 65,
+                        quantity: 5
+                    },
+                    {
+                        id: 152,
+                        quantity: 3
+                    },
+                    {
+                        id: 81,
+                        quantity: 1
+                    },
+                    {
+                        id: 89,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 613,
+        rarity: 3,
+        category: "cooking",
+        name: "Steak de bœuf",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 86,
+                        quantity: 8
+                    },
+                    {
+                        id: 91,
+                        quantity: 2
+                    },
+                    {
+                        id: 88,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 614,
+        rarity: 3,
+        category: "cooking",
+        name: "Maki aux herbes",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 8
+                    },
+                    {
+                        id: 27,
+                        quantity: 5
+                    },
+                    {
+                        id: 81,
+                        quantity: 2
+                    },
+                    {
+                        id: 78,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 615,
+        rarity: 3,
+        category: "cooking",
+        name: "Pho à la lavande",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 24,
+                        quantity: 5
+                    },
+                    {
+                        id: 26,
+                        quantity: 1
+                    },
+                    {
+                        id: 91,
+                        quantity: 2
+                    },
+                    {
+                        id: 81,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 616,
+        rarity: 3,
+        category: "cooking",
+        name: "Parfait à la fraise",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 69,
+                        quantity: 8
+                    },
+                    {
+                        id: 152,
+                        quantity: 2
+                    },
+                    {
+                        id: 75,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 617,
+        rarity: 3,
+        category: "cooking",
+        name: "Salade grecque",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 25,
+                        quantity: 8
+                    },
+                    {
+                        id: 66,
+                        quantity: 3
+                    },
+                    {
+                        id: 68,
+                        quantity: 3
+                    },
+                    {
+                        id: 91,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 618,
+        rarity: 3,
+        category: "cooking",
+        name: "Potion de soins instantanés (sup.)",
+        crafts: [
+            {
+                cost: 1500,
+                quantity: 10,
+                items: [
+                    {
+                        id: 43,
+                        quantity: 1
+                    },
+                    {
+                        id: 535,
+                        quantity: 1
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 623,
+        rarity: 2,
+        category: "cooking",
+        name: "Élixir d'XP premium",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 100,
+                        quantity: 1
+                    },
+                    {
+                        id: 581,
+                        quantity: 1
+                    },
+                    {
+                        id: 98,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 624,
+        rarity: 3,
+        category: "cooking",
+        name: "Plat de pompano premium",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 53,
+                        quantity: 4
+                    },
+                    {
+                        id: 29,
+                        quantity: 6
+                    },
+                    {
+                        id: 78,
+                        quantity: 2
+                    },
+                    {
+                        id: 91,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 625,
+        rarity: 3,
+        category: "cooking",
+        name: "Eau gazeuse au kiwi",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 70,
+                        quantity: 8
+                    },
+                    {
+                        id: 67,
+                        quantity: 5
+                    },
+                    {
+                        id: 84,
+                        quantity: 3
+                    },
+                    {
+                        id: 75,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 626,
+        rarity: 3,
+        category: "cooking",
+        name: "Gâteau de riz blanc",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 68,
+                        quantity: 6
+                    },
+                    {
+                        id: 6,
+                        quantity: 6
+                    },
+                    {
+                        id: 81,
+                        quantity: 3
+                    },
+                    {
+                        id: 75,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 627,
+        rarity: 3,
+        category: "cooking",
+        name: "Smoothie à la fraise et à la mangue",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 65,
+                        quantity: 10
+                    },
+                    {
+                        id: 69,
+                        quantity: 10
+                    },
+                    {
+                        id: 152,
+                        quantity: 5
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 628,
+        rarity: 3,
+        category: "cooking",
+        name: "Viande frit",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 86,
+                        quantity: 8
+                    },
+                    {
+                        id: 85,
+                        quantity: 8
+                    },
+                    {
+                        id: 81,
+                        quantity: 3
+                    },
+                    {
+                        id: 89,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 629,
+        rarity: 3,
+        category: "cooking",
+        name: "Saumon masou grillé",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 54,
+                        quantity: 5
+                    },
+                    {
+                        id: 53,
+                        quantity: 3
+                    },
+                    {
+                        id: 78,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 630,
+        rarity: 3,
+        category: "cooking",
+        name: "Tarte à la fraise",
+        crafts: [
+            {
+                cost: 5000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 69,
+                        quantity: 12
+                    },
+                    {
+                        id: 80,
+                        quantity: 5
+                    },
+                    {
+                        id: 74,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 631,
+        rarity: 3,
+        category: "cooking",
+        name: "Maki au crabe",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 58,
+                        quantity: 6
+                    },
+                    {
+                        id: 72,
+                        quantity: 5
+                    },
+                    {
+                        id: 91,
+                        quantity: 2
+                    },
+                    {
+                        id: 81,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 632,
+        rarity: 3,
+        category: "cooking",
+        name: "Pho à la camomille",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 27,
+                        quantity: 10
+                    },
+                    {
+                        id: 26,
+                        quantity: 3
+                    },
+                    {
+                        id: 91,
+                        quantity: 2
+                    },
+                    {
+                        id: 81,
+                        quantity: 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 633,
+        rarity: 3,
+        category: "cooking",
+        name: "Sorbet à la mangue",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 65,
+                        quantity: 8
+                    },
+                    {
+                        id: 152,
+                        quantity: 5
+                    },
+                    {
+                        id: 75,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 634,
+        rarity: 3,
+        category: "cooking",
+        name: "Thé à la pêche et au safran",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 28,
+                        quantity: 8
+                    },
+                    {
+                        id: 66,
+                        quantity: 5
+                    },
+                    {
+                        id: 84,
+                        quantity: 3
+                    },
+                    {
+                        id: 75,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 635,
+        rarity: 3,
+        category: "cooking",
+        name: "Tisane de soins instantanés (sup.)",
+        crafts: [
+            {
+                cost: 1500,
+                quantity: 10,
+                items: [
+                    {
+                        id: 48,
+                        quantity: 1
+                    },
+                    {
+                        id: 535,
+                        quantity: 1
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 636,
+        rarity: 4,
+        category: "cooking",
+        name: "Plat de raie-aigle premium",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 53,
+                        quantity: 2
+                    },
+                    {
+                        id: 35,
+                        quantity: 5
+                    },
+                    {
+                        id: 78,
+                        quantity: 3
+                    },
+                    {
+                        id: 91,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 637,
+        rarity: 4,
+        category: "cooking",
+        name: "Eau gazeuse à la fraise",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 69,
+                        quantity: 10
+                    },
+                    {
+                        id: 26,
+                        quantity: 3
+                    },
+                    {
+                        id: 84,
+                        quantity: 5
+                    },
+                    {
+                        id: 75,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 638,
+        rarity: 4,
+        category: "cooking",
+        name: "Gâteau aux fruits",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 65,
+                        quantity: 10
+                    },
+                    {
+                        id: 69,
+                        quantity: 10
+                    },
+                    {
+                        id: 152,
+                        quantity: 5
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 639,
+        rarity: 4,
+        category: "cooking",
+        name: "Assortiment de plats",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 53,
+                        quantity: 10
+                    },
+                    {
+                        id: 85,
+                        quantity: 8
+                    },
+                    {
+                        id: 91,
+                        quantity: 5
+                    },
+                    {
+                        id: 88,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 640,
+        rarity: 3,
+        category: "cooking",
+        name: "Steak parfumé de premier choix",
+        crafts: [
+            {
+                cost: 10000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 87,
+                        quantity: 8
+                    },
+                    {
+                        id: 85,
+                        quantity: 8
+                    },
+                    {
+                        id: 91,
+                        quantity: 5
+                    },
+                    {
+                        id: 88,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 641,
+        rarity: 4,
+        category: "cooking",
+        name: "Maki aux côtes",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 87,
+                        quantity: 8
+                    },
+                    {
+                        id: 85,
+                        quantity: 5
+                    },
+                    {
+                        id: 81,
+                        quantity: 8
+                    },
+                    {
+                        id: 91,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 642,
+        rarity: 4,
+        category: "cooking",
+        name: "Pho à la sauge",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 29,
+                        quantity: 10
+                    },
+                    {
+                        id: 26,
+                        quantity: 5
+                    },
+                    {
+                        id: 81,
+                        quantity: 3
+                    },
+                    {
+                        id: 91,
+                        quantity: 3
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 643,
+        rarity: 4,
+        category: "cooking",
+        name: "Gelato au kiwi",
+        crafts: [
+            {
+                cost: 20000,
+                quantity: 1,
+                items: [
+                    {
+                        id: 70,
+                        quantity: 10
+                    },
+                    {
+                        id: 152,
+                        quantity: 8
+                    },
+                    {
+                        id: 75,
+                        quantity: 5
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 644,
+        rarity: 4,
+        category: "cooking",
+        name: "Potion de soins instantanés (supr.)",
+        crafts: [
+            {
+                cost: 2500,
+                quantity: 10,
+                items: [
+                    {
+                        id: 35,
+                        quantity: 1
+                    },
+                    {
+                        id: 535,
+                        quantity: 1
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        id: 645,
+        rarity: 4,
+        category: "cooking",
+        name: "Tisane de soins instantanés (supr.)",
+        crafts: [
+            {
+                cost: 2500,
+                quantity: 10,
+                items: [
+                    {
+                        id: 53,
+                        quantity: 1
+                    },
+                    {
+                        id: 535,
+                        quantity: 1
+                    },
+                    {
+                        id: 84,
+                        quantity: 1
+                    }
+                ]
+            }
+        ]
+    },
+    {
         id: 646,
         rarity: 2,
         category: "raw",
@@ -3207,5 +5954,90 @@ const dataText = [
         category: "raw",
         name: "Dard pointu",
         crafts: []
+    },
+    {
+        id: 648,
+        rarity: 2,
+        category: "raw",
+        name: "Essence de magie",
+        crafts: []
+    },
+    {
+        id: 649,
+        rarity: 5,
+        category: "raw",
+        name: "Rêquete de maître",
+        crafts: [
+            {
+                cost: 0,
+                quantity: 1,
+                items: [
+                    {
+                        id: 525,
+                        quantity: 100
+                    },
+                    {
+                        id: 530,
+                        quantity: 100
+                    },
+                    {
+                        id: 540,
+                        quantity: 100
+                    },
+                    {
+                        id: 534,
+                        quantity: 100
+                    },
+                    {
+                        id: 537,
+                        quantity: 50
+                    },
+                    {
+                        id: 545,
+                        quantity: 3
+                    },
+                    {
+                        id: 491,
+                        quantity: 20,
+                    },
+                    {
+                        id: 493,
+                        quantity: 20,
+                    },
+                    {
+                        id: 489,
+                        quantity: 20,
+                    },
+                    {
+                        id: 487,
+                        quantity: 20
+                    },
+                    {
+                        id: 628,
+                        quantity: 80
+                    },
+                    {
+                        id: 632,
+                        quantity: 80
+                    },
+                    {
+                        id: 624,
+                        quantity: 80
+                    },
+                    {
+                        id: 630,
+                        quantity: 80
+                    },
+                    {
+                        id: 629,
+                        quantity: 80
+                    },
+                    {
+                        id: 631,
+                        quantity: 80
+                    }
+                ]
+            }
+        ]
     }
 ];
